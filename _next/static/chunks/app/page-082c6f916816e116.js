@@ -685,9 +685,10 @@
         u = JSON.parse(
           '[{"name":"seafairy.webp","caption":"Fan art: Sea Fairy Cookie (from <i>Cookie Run Kingdom</i>)"},{"name":"yumtendo.webp","caption":"Fan art: Zine piece for <i>Yumtendo Cookbook</i>"},{"name":"zine_1.webp","caption":"Fan art: Zine piece for <i>Fated: A Zelink Zine</i>"},{"name":"ootd_long.webp","caption":"OC: ootd doodle"},{"name":"juniper4.webp","caption":"OC: Juniper (my D&D character!!)"},{"name":"kamisato_siblings.webp","caption":"Fan art: Kamisato siblings (from <i>Genshin Impact</i>)"},{"name":"tales.webp","caption":"Fan art: Zine piece for <i>Tales from Hyrule</i>"},{"name":"zag.webp","caption":"Fan art: Zagreus (from <i>Hades</i>)"},{"name":"yanxi.webp","caption":"Fan art: Empress Xiaoyi 孝仪纯皇后 (from <i>Story of Yanxi Palace</i> 延禧攻略)"}]',
         ),
-        b = JSON.parse(
-          '[{"name":"WEEK 1","url":"https://youtu.be/qM_a90x2mZA"},{"name":"WEEK 2","url":"https://youtu.be/W5xGBxwoPvg"},{"name":"WEEK 3","url":"https://youtu.be/swVPrqWaFL8"},{"name":"the duck","url":""}]',
-        ),
+     b = JSON.parse(
+  '[{"name":"WEEK 1","url":"https://youtu.be/qM_a90x2mZA"},{"name":"WEEK 2","url":"https://youtu.be/W5xGBxwoPvg"},{"name":"WEEK 3","url":"https://youtu.be/swVPrqWaFL8"},{"name":"WEEK 4","url":"YOUR_WEEK_4_LINK"}]',
+),
+
         x = JSON.parse(
           '[{"name":"Frog Pond","description":"i really love virtual pets and desktop buddies, so i made this idle desktop pond full of my little frog characters :) <br/><br/> all programming/art work done on this one is by me! free and available to download on <a href=\\"https://carlyap.itch.io/frog-pond\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">itch.io</a>, and soon to be released on Steam. <br/><br/> see how i made it <a href=\\"https://www.youtube.com/watch?v=5Fxw1DqZaYA\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">here</a>!","path":"/images/devProjects/cover.webp","url":"https://carlyap.itch.io/frog-pond"},{"name":"Bingus Adventure","description":"a buggy RPG i made with a friend in college for a game jam, held by my game dev student org <a href=\\"https://develup.itch.io/\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">DevelUP</a>! <br/><br/> i worked on the programming and sprite art for this one, my friend Vince did the design, awesome writing, and environment art! it won\'t give you a virus but you\'ll probably encounter a lot of bugs LOL but i thought it would be fun to carle here hehe, enjoy (or not)!!","path":"/images/devProjects/bingbing.webp","url":"https://bingusfan25.itch.io/bingusadventure"}]',
         );
@@ -784,6 +785,7 @@
                     className: w.T.sectionHeader,
                     children: "VIDEOS",
                   }),
+                  
                   (0, s.jsx)("div", {
                     children: (0, s.jsx)("div", {
                       className:
@@ -830,6 +832,15 @@
                 ],
               }),
               (0, s.jsx)("hr", { className: w.T.hr }),
+              (0, s.jsxs)("div", {
+  className: "mt-6 pb-6",
+  children: [
+    (0, s.jsx)("div", {
+      className: w.T.sectionHeader,
+      children: "ASYNCHRONOUS ACTIVITY",
+    }),
+  ],
+}),
               (0, s.jsxs)("div", {
                 className: "pb-5",
                 
