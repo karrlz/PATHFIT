@@ -685,8 +685,9 @@
         u = JSON.parse(
           '[{"name":"seafairy.webp","caption":"Fan art: Sea Fairy Cookie (from <i>Cookie Run Kingdom</i>)"},{"name":"yumtendo.webp","caption":"Fan art: Zine piece for <i>Yumtendo Cookbook</i>"},{"name":"zine_1.webp","caption":"Fan art: Zine piece for <i>Fated: A Zelink Zine</i>"},{"name":"ootd_long.webp","caption":"OC: ootd doodle"},{"name":"juniper4.webp","caption":"OC: Juniper (my D&D character!!)"},{"name":"kamisato_siblings.webp","caption":"Fan art: Kamisato siblings (from <i>Genshin Impact</i>)"},{"name":"tales.webp","caption":"Fan art: Zine piece for <i>Tales from Hyrule</i>"},{"name":"zag.webp","caption":"Fan art: Zagreus (from <i>Hades</i>)"},{"name":"yanxi.webp","caption":"Fan art: Empress Xiaoyi 孝仪纯皇后 (from <i>Story of Yanxi Palace</i> 延禧攻略)"}]',
         ),
-     b = JSON.parse(
-  '[{"name":"WEEK 1","url":"https://youtu.be/qM_a90x2mZA"},{"name":"WEEK 2","url":"https://youtu.be/W5xGBxwoPvg"},{"name":"WEEK 3","url":"https://youtu.be/swVPrqWaFL8"},{"name":"WEEK 4","url":"YOUR_WEEK_4_LINK"}]',
+   
+b = JSON.parse(
+  '[{"name":"WEEK 1","url":"https://youtu.be/qM_a90x2mZA"},{"name":"WEEK 2","url":"https://youtu.be/W5xGBxwoPvg"},{"name":"WEEK 3","url":"https://youtu.be/swVPrqWaFL8"},{"name":"WEEK 4","url":"https://youtu.be/3zeiuHZZQ4A"},{"name":"WEEK 5","url":"https://youtu.be/W_BWKLFVVpk"}]',
 ),
 
         x = JSON.parse(
@@ -789,7 +790,7 @@
                   (0, s.jsx)("div", {
                     children: (0, s.jsx)("div", {
                       className:
-                        "md:grid md:grid-cols-2 md:grid-rows-2 md:place-items-center",
+                      "md:grid md:grid-cols-2 md:place-items-center",
                       children: b.map((e) =>
                         (0, s.jsxs)(
                           i.Fragment,
@@ -833,20 +834,45 @@
               }),
               (0, s.jsx)("hr", { className: w.T.hr }),
               (0, s.jsxs)("div", {
-  className: "mt-6 pb-6",
-  children: [
-    (0, s.jsx)("div", {
+
+className: "mt-6 pb-6",
+children: [
+  (0, s.jsx)("div", {
+    className: w.T.sectionHeader,
+    children: "ASYNCHRONOUS ACTIVITY 1",
+  }),
+
+  (0, s.jsx)("div", {
+    className: "mt-4 flex flex-col items-center gap-6",
+    children: [
+      (0, s.jsx)("video", {
+        src: "/videos/ASYNCHRONOUS%20ACTIVITY%201.mp4",
+        controls: true,
+        className: "w-full max-w-3xl rounded-md",
+      }),
+    ],
+  }),
+
+  (0, s.jsx)("div", {
+    className: "mt-8",
+    children: (0, s.jsx)("div", {
       className: w.T.sectionHeader,
-      children: "ASYNCHRONOUS ACTIVITY",
+      children: "ASYNCHRONOUS ACTIVITY 2",
     }),
-  ],
+  }),
+
+  (0, s.jsx)("div", {
+    className: "mt-4 flex flex-col items-center gap-6",
+    children: [
+      (0, s.jsx)("video", {
+        src: "/videos/ASYNCHRONOUS%20ACTIVITY%202.mp4",
+        controls: true,
+        className: "w-full max-w-3xl rounded-md",
+      }),
+    ],
+  }),
+],
 }),
-              (0, s.jsxs)("div", {
-                className: "pb-5",
-                
-             
-             
-              }),
             ],
           }),
         });
